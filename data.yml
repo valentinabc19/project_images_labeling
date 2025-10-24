@@ -1,0 +1,7 @@
+train: ./train/images
+val: ./val/images
+test: ./test/images 
+
+nc: 11 
+
+names: ['cordal', 'apinamiento', 'diente_rotado', 'diastema', 'dentula', 'zona_dentula', 'tratamiento_conducto', 'fractura', 'caries', 'enanismo_reticular', 'quiste_ontogenico']  # Ejemplo — cámbialas por tus etiquetas reales
